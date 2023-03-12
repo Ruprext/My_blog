@@ -1,0 +1,67 @@
+/* Conteiner */
+
+.conteiner {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+/* avatar */
+
+.avatar {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+    overflow: hidden;
+}
+
+/* Font body */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: bisque;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+
+}
+
+
+/* Color h3*/
+
+.colorh3 {
+    color:rgb(218, 33, 39);
+
+}
+
+/* Card */
+
+.card {
+    border: solid;
+    border-radius: 5%;
+    background-color: burlywood;
+    border-color: burlywood;
+    padding-left: 2%;
+}
+.card2 {
+    border: solid;
+    border-radius: 5%;
+    background-color: burlywood;
+    border-color: burlywood;
+    padding-left: 2%;
+}
+.card3 {
+    border: solid;
+    border-radius: 5%;
+    background-color: burlywood;
+    border-color: burlywood;
+    padding-left: 2%;
+}
+.card4 {
+    border: solid;
+    border-radius: 5%;
+    background-color: burlywood;
+    border-color: burlywood;
+    padding-left: 2%;
+}
+
