@@ -13,6 +13,34 @@
     display: flex;
 }
 
+.info_left {
+    margin-left: 30px;
+}
+
+/* Media */
+
+@media (max-width: 770px) {
+    .info {
+        display: block;
+        margin-left: 0px;
+        text-align: center;
+
+    }
+    .info_left {
+        margin-left: 0px;
+    }
+    h1 {
+        margin-top: 14px;
+        margin-bottom: 5px;
+    }
+    h2 {
+        margin: 0px; 
+    }
+    p {
+        margin-top: 3px;
+        margin-bottom: 1px;
+    }
+}
 /* avatar */
 
 .avatar {
