@@ -12,21 +12,16 @@
 
 <body>
     <div class="conteiner">
-        <div>
-            <table cellspacing="17">
-                <tr>
-                    <td class="avatar">
-                        <img src="avatar.jpeg" alt="фото любителя собак" width="200">
-                    </td>
-                    <td>
-                    <h1>ПЕРОМ И ЛАПОЙ</h1>
-                    <h2>КУЗНЕЦОВ АНДРЕЙ ПАВЛОВИЧ</h2>
-                    <p>Привет, я во фрилансе и делаю всё что хочу.</p>
-                    <p>Как-то работал деканом - поэтому называю себя - <strong>"Декан во фрилансе"</strong></p>
-                    </td>
-                </tr>
-            </table>
+        <div class="info">
+            <img class="avatar" src="avatar.jpeg" alt="фото любителя собак" width="200">
+            <div>
+                <h1>ПЕРОМ И ЛАПОЙ</h1>
+                <h2>КУЗНЕЦОВ АНДРЕЙ ПАВЛОВИЧ</h2>
+                <p>Привет, я во фрилансе и делаю всё что хочу.</p>
+                <p>Как-то работал деканом - поэтому называю себя - <strong>"Декан во фрилансе"</strong></p>
+            </div>
         </div>
+       
         
         <hr>
         
@@ -48,10 +43,11 @@
                 Пишут весело. Думают мудро.<br>
                 Я переговорил с ними, и они, в здравом уме и при полной памяти,<br>
                 разрешили публиковать отрывки из своих дневников.</p>
-
-            <form
-                action="blog.html" target="_blank"><button>Читать наши истории</button>
-            </form>
+            <div class="btncenter">
+                <form
+                    action="blog.html" target="_blank"><button class="btn">Читать наши истории</button>
+                </form>
+            </div>
         </div> 
     
         <hr>
@@ -79,7 +75,7 @@
                 
                 <br>
                 
-                <label for="email">Ваше email:</label>
+                <label for="email">Ваш email:</label>
                 <input type="email" name="" id="email" placeholder="Введите свой email">
 
                 <br>
@@ -92,7 +88,7 @@
                 
                 <br>
             
-                <input type="submit" value="Подписаться">
+                <input type="submit" value="Подписаться" class="btn">
             </form>
         </div>
     </div>
